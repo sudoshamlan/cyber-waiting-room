@@ -4,9 +4,9 @@ import { Twitter, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:info@example.com', label: 'Email' },
+    { icon: Twitter, href: 'https://x.com/OdooSense', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/odoo-sense', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:contact@odoosense.xyz', label: 'Email' },
   ];
 
   return (
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="absolute -inset-2 bg-gradient-to-r from-cyber-purple to-cyber-pink rounded-full blur opacity-0 group-hover:opacity-75 transition-opacity duration-300"></span>
+                  <span className="absolute -inset-2 bg-gradient-to-r from-white to-white rounded-full blur opacity-0 group-hover:opacity-75 transition-opacity duration-300"></span>
                   <Icon className="w-5 h-5 relative" />
                 </a>
               );

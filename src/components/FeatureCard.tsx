@@ -6,7 +6,7 @@ interface FeatureCardProps {
   title: string;
   description: string;
   icon: LucideIcon;
-  color: 'purple' | 'pink' | 'blue';
+  color: 'purple' | 'pink' | 'blue' | 'white';
   className?: string;
 }
 
@@ -32,6 +32,11 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       iconBg: 'bg-cyber-blue/10',
       iconColor: 'text-cyber-blue',
       glow: 'text-glow-blue',
+    },
+    white: {
+      iconBg: 'bg-white/10',
+      iconColor: 'text-white',
+      glow: 'text-white',
     },
   };
 
