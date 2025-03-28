@@ -42,7 +42,7 @@ const Index = () => {
             title="99.9% Accuracy"
             description="Advanced AI algorithms ensure precise data analysis and reporting for your business decisions."
             icon={Check}
-            color="white"
+            color="blue"
             className="bg-black/50 border border-white/10 backdrop-blur-sm"
           />
           
@@ -50,7 +50,7 @@ const Index = () => {
             title="Effortless Operation"
             description="Intuitive interface that requires minimal training, saving time and reducing operational friction."
             icon={Zap}
-            color="white"
+            color="blue"
             className="bg-black/50 border border-white/10 backdrop-blur-sm"
           />
           
@@ -58,7 +58,7 @@ const Index = () => {
             title="Enterprise Security"
             description="Bank-level encryption and security protocols to keep your sensitive business data protected."
             icon={ShieldCheck}
-            color="white"
+            color="blue"
             className="bg-black/50 border border-white/10 backdrop-blur-sm"
           />
         </div>
