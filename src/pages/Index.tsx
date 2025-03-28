@@ -49,9 +49,7 @@ const Index = () => {
             description="Call for instant insights, no login needed. Perfect for executives on the go."
             icon={Phone}
             color="pink"
-            className="animate-slide-in-left"
-            // Add delay for staggered animation
-            style={{ animationDelay: '0.2s' }}
+            className="animate-slide-in-left delay-200"
           />
           
           <FeatureCard
@@ -59,9 +57,7 @@ const Index = () => {
             description="Get notified before problems arise with AI-powered anomaly detection and trend analysis."
             icon={Bell}
             color="blue"
-            className="animate-slide-in-left"
-            // Add delay for staggered animation
-            style={{ animationDelay: '0.4s' }}
+            className="animate-slide-in-left delay-400"
           />
         </div>
       </section>
